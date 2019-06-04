@@ -1,0 +1,152 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 800px;
+    height: 100%;
+    margin-left: 300px;
+}
+
+.cv {
+    width: 240px;
+    height: 150px;
+    background-color: #179498;
+    color: white;
+    text-transform:uppercase;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+
+.cv h2 {
+    width: 240px;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 10px;
+}
+
+.foto {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: -230px;
+}
+
+.foto img {
+    width: 171px;
+    height: 229px;
+}
+
+.name {
+    color: #666666;
+    font-size: 28px;
+    margin-left: 170px;
+}
+
+.personalia {
+    width: 240px;
+    height: 100%;
+    background-color: #179498;
+    color: white;
+    margin-left: 20px;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.personalia h2 {
+    width: 190px;
+    height: 50px;
+    font-size: 28px;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    margin-left: 10px;
+}
+
+.personalia h3, .personalia p {
+    margin-left: 20px;
+}
+
+.peronalia h3 {
+    font-size: 18px;
+}
+
+.personalia a {
+    text-decoration: none;
+    color: white;
+}
+
+.personalia a:hover {
+    text-decoration: underline;
+}
+
+.opleiding, .werkervaring, .kennis {
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 290px;
+    color: #666666;
+}
+
+.opleiding {
+    margin-top: -900px;
+}
+
+.opleiding h2, .werkervaring h2, .kennis h2 {
+    font-size: 28px;
+    color: #179498;
+    border-bottom: 2px solid;
+}
+
+.opleiding th, .opleiding td {
+    padding: 5px;
+}
+.opleiding th, .werkervaring h4, .kennis h4 {
+    font-size: 20px;
+    text-align: left;
+}
+
+.werkervaring ul {
+    line-height: 1.5;
+    padding: 5px;
+}
+
+.werkervaring ul .uitleg {
+    list-style: none;
+    padding: 5px;
+    line-height: 1.5;
+    font-style: normal;
+}
+
+.werkervaring .tussentitel {
+    font-style: italic;
+    padding: 5px;
+}
+
+.kennis ul {
+    list-style: square;
+}
+
+.kennis li {
+    padding: 3px;
+}
+
+.footer {
+    width: 800px;
+    height: 150px;
+    background-color: #179498;
+}
+
+
+
