@@ -116,9 +116,17 @@ html {
 .opleiding th, .opleiding td {
     padding: 5px;
 }
+
+.opleiding td {
+    line-height: 1.8;
+}
 .opleiding th, .werkervaring h4, .kennis h4 {
     font-size: 20px;
     text-align: left;
+}
+
+.werkervaring p {
+    margin-bottom: -10px;
 }
 
 .werkervaring ul {
@@ -128,7 +136,7 @@ html {
 
 .werkervaring ul .uitleg {
     list-style: none;
-    padding: 5px;
+    padding: 10px;
     line-height: 1.5;
     font-style: normal;
 }
@@ -138,8 +146,17 @@ html {
     padding: 5px;
 }
 
+.kennis dl {
+    margin-top: -5px;
+}
+
+.kennis dd {
+    margin: 5px 0px 10px 40px;
+}
+
 .kennis ul {
     list-style: square;
+    margin-top: -5px;
 }
 
 .kennis li {
