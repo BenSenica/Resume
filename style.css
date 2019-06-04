@@ -77,8 +77,12 @@ html {
     margin-left: 20px;
 }
 
-.peronalia h3 {
+.personalia h3 {
     font-size: 18px;
+}
+
+.personalia p {
+    margin-top: -15px;
 }
 
 .personalia a {
@@ -100,7 +104,7 @@ html {
 }
 
 .opleiding {
-    margin-top: -900px;
+    margin-top: -700px;
 }
 
 .opleiding h2, .werkervaring h2, .kennis h2 {
