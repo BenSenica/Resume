@@ -1,0 +1,173 @@
+@import "normalize";
+@import "variables";
+
+.container {
+    width: 800px;
+    height: 100%;
+    margin-left: 300px;
+}
+
+.cv {
+    width: 240px;
+    height: 150px;
+    background-color: $blue-chill;
+    color: $white;
+    text-transform: uppercase;
+    font-size: $font-size + 2px;
+    margin-left: 20px;
+    margin-top: -30px;
+    h2 {
+        width: 240px;
+        height: 100%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-left: 10px;
+    }
+}
+
+.foto {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: -230px;
+    img {
+        width: 171px;
+        height: 229px;
+    }
+}
+
+.name {
+    color: $storm-dust;
+    font-size: $header-font-size;
+    margin-left: 170px;
+}
+
+.personalia {
+    width: 240px;
+    height: 100%;
+    background-color: $blue-chill;
+    color: $white;
+    margin-left: 20px;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    h2 {
+        width: 190px;
+        height: 50px;
+        font-size: $header-font-size;
+        text-transform: uppercase;
+        border-bottom: 2px solid;
+        margin-left: 10px;
+    }
+    
+    h3, p {
+        margin-left: 20px;
+    }
+    
+    h3 {
+        font-size: $font-size + 2px;
+    }
+    
+    p {
+        margin-top: -15px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: $white;
+        &:hover {
+            text-decoration: underline;
+        } 
+    }
+ 
+}
+
+.opleiding, .werkervaring, .kennis {
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 290px;
+    color: $storm-dust;
+}
+
+.opleiding {
+    margin-top: -700px;
+    th, td {
+        padding: 5px;
+    }
+    
+    td {
+        line-height: 1.8;
+    }
+    
+}
+
+.opleiding h2, .werkervaring h2, .kennis h2 {
+    font-size: $font-size + 12px;
+    color: $blue-chill;
+    border-bottom: 2px solid;
+}
+
+.opleiding th, .werkervaring h4, .kennis h4 {
+    font-size: $font-size + 4px;
+    text-align: left;
+}
+
+.werkervaring {
+    p {
+        margin-bottom: -10px;
+    }
+    
+    ul {
+        line-height: 1.5;
+        padding: 5px;
+    }
+}
+
+.werkervaring ul .uitleg {
+    list-style: none;
+    padding: 10px;
+    line-height: 1.5;
+    font-style: normal;
+}
+
+.werkervaring .tussentitel {
+    font-style: italic;
+    padding: 5px;
+}
+
+.kennis {
+    dl {
+        margin-top: -5px;
+    }
+    dd {
+        margin: 5px 0 10px 5px;
+    }
+    ul {
+        list-style: square;
+        margin-top: -5px;
+    }
+    li {
+        padding: 3px;
+    }
+}
+
+.footer {
+    widows: 800px;
+    height: 150px;
+    background-color: $blue-chill;
+}
+
+
+
+
+
+
+
+
